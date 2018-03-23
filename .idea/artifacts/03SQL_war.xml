@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="03SQL:war">
+    <output-path>$PROJECT_DIR$/test/target</output-path>
+    <root id="archive" name="03-SQL-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="03SQL:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01MyBatis" />
+        <module name="me" />
+        <module name="test" />
+      </profile>
+      <profile name="Annotation profile for Mybatis" enabled="true">
+        <sourceOutputDir name="../test/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../test/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="03SQL" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01MyBatis" target="1.5" />
+      <module name="02Mybatishigh" target="1.5" />
+      <module name="03SQL" target="1.5" />
+      <module name="04WDKBigDataEngineExamSystem" target="1.5" />
+      <module name="me" target="1.5" />
+      <module name="Mybatis" target="1.5" />
+      <module name="test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
